@@ -1,0 +1,18 @@
+@import "colours";
+
+%align-center {
+  display: flex;
+  align-items: center;
+}
+//@extend %align-center
+.navbar {
+  background-color: $boxes;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw-1200px) / 2);
+  z-index: 10;
+  position: relative;
+  align-items: flex-end;
+  color: blanchedalmond;
+}

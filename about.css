@@ -1,0 +1,62 @@
+.navbar {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem calc((100vw-1200px) / 2);
+  z-index: 10;
+  position: relative;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blanchedalmond;
+}
+
+.menu-nav_link {
+  color: blanchedalmond;
+}
+
+footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.name {
+  color: #142427;
+  font-family: "Palatino";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: #377079;
+}
+
+body .wrap {
+  background-color: white;
+  background-size: 50%;
+  border-style: solid;
+  border-color: goldenrod;
+  padding: 2rem;
+}
+
+body .sub head {
+  font-family: "Ink Free";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+}
+
+body .p {
+  font-family: "Lucinda Bright";
+  background-color: #142427;
+  font-size: 2.5rem;
+}
+/*# sourceMappingURL=about.css.map */

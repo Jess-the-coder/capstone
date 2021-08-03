@@ -1,0 +1,35 @@
+//navbar
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw-1200px) / 2);
+  z-index: 10;
+  position: relative;
+  align-items: flex-end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blanchedalmond;
+}
+//nav bar-color
+.menu-nav_link {
+  color: blanchedalmond;
+}
+//body nest-background image
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(./images/download.jpg);
+  background-size: cover;
+  a {
+    grid-column: 2/13;
+    grid-row: 3;
+    text-align: left;
+  }
+}
+//form-background, font
+.form {
+  font-family: "Ink Free";
+  grid-column: 3/13;
+  grid-row: 5;
+  background-color: rgb(240, 238, 238);
+  padding: 1rem;
+}

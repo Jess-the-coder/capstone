@@ -1,0 +1,59 @@
+//navbar- position,height,color,padding
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw-1200px) / 2);
+  z-index: 10;
+  position: relative;
+  align-items: flex-end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blanchedalmond;
+}
+//social icons-color
+.social-icons {
+  color: blanchedalmond;
+}
+//nav bar-color
+.menu-nav_link {
+  color: blanchedalmond;
+}
+//body- background,size,image
+body {
+  background-image: url(./images/img5magic.jpeg);
+  background-size: cover;
+}
+//div for back of text
+.back {
+  background-color: white;
+  block-size: 20rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  background-size: 70%;
+}
+//heading-font and position
+.h1 {
+  font-family: "Deng Xian";
+  text-align: center;
+}
+//paragraph- position,font and padding
+.one {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 2rem;
+}
+//quote- border,color,padding
+.quote {
+  border: 2px;
+  border-color: black;
+  color: gray;
+  padding-right: 2rem;
+}
+//review-text color, padding
+.review {
+  border: 2px;
+  border-color: black;
+  color: gray;
+  padding-right: 2rem;
+}

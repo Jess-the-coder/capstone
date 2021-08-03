@@ -1,0 +1,65 @@
+.navbar {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem calc((100vw-1200px) / 2);
+  z-index: 10;
+  position: relative;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blanchedalmond;
+}
+
+.social-icons {
+  color: blanchedalmond;
+}
+
+.menu-nav_link {
+  color: blanchedalmond;
+}
+
+body {
+  background-image: url(./images/img5magic.jpeg);
+  background-size: cover;
+}
+
+.back {
+  background-color: white;
+  block-size: 20rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  background-size: 70%;
+}
+
+.h1 {
+  font-family: "Deng Xian";
+  text-align: center;
+}
+
+.one {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 2rem;
+}
+
+.quote {
+  border: 2px;
+  border-color: black;
+  color: gray;
+  padding-right: 2rem;
+}
+
+.review {
+  border: 2px;
+  border-color: black;
+  color: gray;
+  padding-right: 2rem;
+}
+/*# sourceMappingURL=blog.css.map */

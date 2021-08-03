@@ -1,0 +1,74 @@
+//variables
+@import url(./html/scss/_navbar.scss);
+
+@import url(./html/scss/_colours.scss);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+//background image
+body {
+  background-image: url(./images/1934611040-huge.jpg);
+  background-size: 100%;
+}
+
+//header
+.heading {
+  font-family: "Century Gothic";
+  color: blanchedalmond;
+  align-self: center;
+  font-size: 2rem;
+}
+//nested header- navbar positioning, text color
+header {
+  float: center;
+  .menu-nav_item {
+    color: blanchedalmond;
+  }
+  nav {
+    color: blanchedalmond;
+  }
+  .menu-nav_link {
+    color: blanchedalmond;
+  }
+  img {
+    width: 60px;
+  }
+  .social-icons {
+    width: 330px;
+    position: fixed;
+    right: 0;
+  }
+  .navbar {
+    float: left;
+    color: blanchedalmond;
+  }
+}
+//centering middle text
+main {
+  text-align: center;
+  padding: 16rem;
+}
+//div-positioning middle text
+.home {
+  align-items: center;
+  color: blanchedalmond;
+}
+//footer- positioning, color and height
+.foot {
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  color: blanchedalmond;
+}
+//footer- copyright
+.menu-nav {
+  color: blanchedalmond;
+  background-color: cadetblue;
+}

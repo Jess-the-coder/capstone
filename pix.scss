@@ -1,0 +1,52 @@
+//navbar
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw-1200px) / 2);
+  z-index: 10;
+  position: relative;
+  align-items: flex-end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blanchedalmond;
+}
+//body-background color
+body {
+  background-color: slategray;
+}
+//navbar-color
+.menu-nav_link {
+  color: blanchedalmond;
+}
+//gallery pictures
+.gallery {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+//headings
+.head {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+//image settings
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  grid-column-gap: 20px;
+}
+
+.banner img {
+  width: 100%;
+}
+.rod {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  grid-column-gap: 20px;
+}
+
+.rod img {
+  width: 100%;
+}

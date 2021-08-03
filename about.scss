@@ -1,0 +1,48 @@
+//sass file for about
+//navbar-positioning,font and color
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw-1200px) / 2);
+  z-index: 10;
+  position: relative;
+  align-items: flex-end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blanchedalmond;
+}
+//navbar-color
+.menu-nav_link {
+  color: blanchedalmond;
+}
+//footer-positioning
+footer {
+  align-items: center;
+}
+//heading-font,color,position
+.name {
+  color: #142427;
+  font-family: "Palatino";
+  align-items: center;
+}
+//body nest -background coloring, fonts,blocks
+body {
+  background-color: #377079;
+  .wrap {
+    background-color: white;
+    background-size: 50%;
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 2rem;
+  }
+  .sub head {
+    font-family: "Ink Free";
+    align-items: center;
+    font-size: 1rem;
+  }
+  .p {
+    font-family: "Lucinda Bright";
+    background-color: #142427;
+    font-size: 2.5rem;
+  }
+}

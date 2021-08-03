@@ -1,0 +1,55 @@
+.row {
+display: flex;
+align-items: center;
+}
+
+.column {
+    align-items: center;
+flex: 33.33%;
+padding: 5px;
+border-top:black;
+border-radius: 2rem;
+border-bottom:black;
+border-bottom: 2rem;
+color: black;
+}
+
+<div class="row">
+    <div class="column">
+      <img src="./images/pexels-aleksey-kuprikov-3493777.jpg" alt=>
+    </div>
+    <div class="column">
+      <img src="./images/pexels-eberhard-grossgasteiger-443446.jpg" alt=>
+    </div>
+    <div class="column">
+      <img src="./images/pexels-element-digital-1051075.jpg" alt=>
+    </div>
+    <br>
+    <div class="column">
+        <img src="./images/pexels-jaxson-bryden-2040627.jpg" alt= >
+      </div>
+      <div class="column">
+        <img src="./images/pexels-michael-block-3225531.jpg" alt= >
+      </div>
+      <div class="column">
+        <img src="./images/pexels-s-migaj-885880.jpg" alt= >
+      </div>
+      <br>
+      <div class="column">
+        <img src="./images/pexels-spencer-davis-4353638.jpg" alt= >
+      </div>
+      <div class="column">
+        <img src="./images/pexels-taryn-elliott-3889987.jpg" alt= >
+      </div>
+      <div class="column">
+        <img src="./images/pexels-tobias-bjørkli-2113566.jpg" alt=>
+      </div>
+      <div class="column">
+        <img src="./images/img1deck.jpeg" alt="Snow" >
+      </div>
+      <div class="column">
+        <img src="./images/img2fall.jpeg" alt="Forest" >
+      </div>
+      <div class="column">
+        <img src="./images/img3soul.jpeg" alt="Mountains" >
+      </div>
